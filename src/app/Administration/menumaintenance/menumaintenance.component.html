@@ -1,0 +1,91 @@
+
+<h2 style="text-align:center">Menu Maintenance</h2>
+<div class="card-body">
+  <div class="card-text">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Menu ID
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="MenuUID" [(ngModel)]="MenuMaintenance.UID" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Menu Name
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="MenuName" [(ngModel)]="MenuMaintenance.MenuName" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Created By
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="CreatedBy" [(ngModel)]="MenuMaintenance.CreatedBy" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Created Date
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="CreatedDt" [(ngModel)]="MenuMaintenance.CreatedDt" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Modified By
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="ModifiedBy" [(ngModel)]="MenuMaintenance.ModifiedBy" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            Modified Date
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <input class="form-control mandatory" type="text" id="ModifiedDt" [(ngModel)]="MenuMaintenance.ModifiedDt" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12"></div>
+      <div class="col-lg-6 col-md-6 col-xs-12 col-sm-12">
+        <div class="row">
+          <div class="mx-auto">
+            <input type="button" class="btn btn-primary float-right" style="margin:15px;margin-top:30px;" (click)="redirectMenuList()" value="Cancel"  />
+            <input type="button" class="btn btn-primary float-right" style="margin:15px;margin-top:30px;" (click)="updateMenu()" value="Update" />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-3 col-xs-12 col-sm-12"></div>
+      <input type="hidden" id="hdnMandatory" value="1">
+    </div>
+
+  </div>
+</div>
+
+

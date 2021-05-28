@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\server",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\Administration",
+    "\\src\\app\\Administration\\menulist",
+    "\\src\\app\\Administration\\menumaintenance",
+    "\\src\\assets",
+    "\\src\\environments"
+  ],
+  "PreviewInSolutionExplorer": false
+}

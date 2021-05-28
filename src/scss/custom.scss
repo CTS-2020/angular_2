@@ -1,0 +1,729 @@
+body {
+  padding: 2vh 0;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    margin: 0 5vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    margin: 0 5vw
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .container {
+    margin: 0 2vw;
+    max-width: 95vw !important;
+  }
+}
+
+.color-primary-1 {
+  color: #688394;
+}
+
+.bg-primary-1 {
+  background-color: #688394;
+}
+
+.add-colon:after {
+  content: ": ";
+  position: absolute;
+  right: 0;
+}
+
+.modal-backdrop {
+  background: rgba(0,0,0,0.5);
+}
+
+.color-primary-2 {
+  color: #008496;
+}
+
+.bg-primary-2 {
+  background-color: #008496;
+}
+
+.color-primary-3 {
+  color: #0096A9;
+}
+
+.bg-primary-3 {
+  background-color: #0096A9;
+}
+
+.color-secondary-1 {
+  color: #FFFFFF;
+}
+
+.bg-secondary-1 {
+  background-color: #FFFFFF;
+}
+
+.color-secondary-2 {
+  color: #707070;
+}
+
+.bg-secondary-2 {
+  background-color: #707070;
+}
+
+.bg-secondary-3 {
+  background-color: #F4F3EF;
+}
+
+.color-primary-1 a {
+  color: inherit;
+}
+
+.color-primary-1 a:hover {
+  color: #0096A9 !important;
+}
+
+.color-primary-1 ul li a {
+  color: inherit;
+}
+
+.color-primary-1 ul li.active {
+  color: #008496;
+}
+
+.color-primary-1 ul li a:hover {
+  color: #0096A9;
+}
+
+.color-primary-1 nav-item {
+  color: inherit;
+}
+
+.svg-current-color {
+  fill: currentColor;
+}
+
+.banner-home {
+  height: 285px;
+  object-fit: cover;
+  width: 98.9vw !important;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.banner-login {
+  width: 441px;
+  object-fit: cover;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+thick-divider.dropdown-divider {
+  border-top: 2px solid;
+}
+
+.material-icons.md-18 {
+  font-size: 18px;
+}
+
+.material-icons.md-24 {
+  font-size: 24px;
+}
+
+.material-icons.md-36 {
+  font-size: 36px;
+}
+
+.material-icons.md-48 {
+  font-size: 48px;
+}
+
+.nav-item {
+  margin: 0 1vw;
+  font-size: 14px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #688394;
+  border-color: #688394;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  background-color: #7c9aad;
+  border-color: #688394;
+}
+
+.btn-primary:active {
+  color: #fff;
+  background-color: #a9c4d6;
+  border-color: #a9c4d6;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  box-shadow: 0 0 0 0.2rem rgba(104, 131, 148, 0.5);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
+}
+
+.btn:hover {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(104, 131, 148, 0.25);
+}
+
+.btn.disabled, .btn:disabled {
+  opacity: 0.65;
+}
+
+a.btn.disabled,
+fieldset:disabled a.btn {
+  pointer-events: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #7c9aad;
+  border-color: #7c9aad;
+}
+
+.BindError {
+  border: 1px solid red;
+}
+
+.cardhide {
+  display: none;
+}
+
+.bg-card-div {
+  background-color: #688394;
+  padding: 5px;
+  color: #FFFFFF;
+  margin: 5px;
+}
+
+
+.contact-area {
+  top: 10%;
+  left: 85%;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+
+.contact-area:hover {
+  top: 10%;
+  left: 13%;
+  z-index: 10;
+  -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+
+.contact {
+  position: relative;
+  max-width: 420px;
+  padding: 30px 20px;
+  overflow: hidden;
+  /*margin: 0 auto;*/
+}
+
+@media (min-width: 550px) {
+  .contact-area {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 88%;
+  }
+
+  .contact-area:hover {
+    top: 10%;
+    left: 33%;
+    z-index: 10;
+    -webkit-transition: all 0.55s;
+    -moz-transition: all 0.55s;
+    -o-transition: all 0.55s;
+    transition: all 0.55s;
+  }
+}
+
+@media (min-width: 700px) {
+  .contact-area {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 88%;
+  }
+
+  .contact-area:hover {
+    top: 10%;
+    left: 45%;
+    z-index: 10;
+    -webkit-transition: all 0.55s;
+    -moz-transition: all 0.55s;
+    -o-transition: all 0.55s;
+    transition: all 0.55s;
+  }
+}
+
+@media (min-width: 1024px) {
+  .contact-area {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 92%;
+  }
+
+  .contact-area:hover {
+    top: 10%;
+    left: 65%;
+    z-index: 10;
+    -webkit-transition: all 0.55s;
+    -moz-transition: all 0.55s;
+    -o-transition: all 0.55s;
+    transition: all 0.55s;
+  }
+}
+
+@media (min-width: 1524px) {
+  .contact-area {
+    width: 100%;
+    position: fixed;
+    top: 10%;
+    left: 92%;
+  }
+
+  .contact-area:hover {
+    top: 10%;
+    left: 78%;
+    z-index: 10;
+    -webkit-transition: all 0.55s;
+    -moz-transition: all 0.55s;
+    -o-transition: all 0.55s;
+    transition: all 0.55s;
+  }
+}
+
+/*@media (min-width: 1024px) {
+	 .contact {
+		 position: absolute;
+		 top: 50%;
+		 left: 50%;
+		 -webkit-transform: translate(-50%, -50%);
+		 -moz-transform: translate(-50%, -50%);
+		 -ms-transform: translate(-50%, -50%);
+		 -o-transform: translate(-50%, -50%);
+		 transform: translate(-50%, -50%);
+	}
+}*/
+.contact main {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+
+.contact main section {
+  border-radius: 5px;
+  float: left;
+  width: 100%;
+  background-color: #0096A9; /*#688394*/ /*#0096A9*/ /*#008496*/
+}
+
+.contact main section .content {
+  float: left;
+  width: 100%;
+  padding: 20px 30px 20px 30px;
+  position: relative;
+  text-align: center;
+}
+
+@media (min-width: 414px) {
+  .contact main section .content {
+    text-align: left;
+  }
+}
+
+.contact main section .content img {
+  display: inline-block;
+  width: 140px;
+  border-radius: 50%;
+}
+
+@media (min-width: 414px) {
+  .contact main section .content img {
+    float: left;
+    width: 30%;
+    margin-right: 10%;
+  }
+}
+
+.contact main section .content aside {
+  float: left;
+  width: 100%;
+  color: #fff;
+  margin-top: 10px;
+}
+
+@media (min-width: 414px) {
+  .contact main section .content aside {
+    width: 60%;
+  }
+}
+
+.contact main section .content aside h1 {
+  font-weight: 100;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.contact main section .content aside p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  line-height: 160%;
+}
+
+.contact main .title {
+  float: left;
+  width: 100%;
+  background-color: #008496; /*#688394*/ /*#008496*/ /*#0096A9*/
+  max-height: 0px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden;
+  -webkit-transition: all 0.55s;
+  -moz-transition: all 0.55s;
+  -o-transition: all 0.55s;
+  transition: all 0.55s;
+}
+
+.contact main .title.active {
+  max-height: 100px;
+  -webkit-transition: all 1.3s;
+  -moz-transition: all 1.3s;
+  -o-transition: all 1.3s;
+  transition: all 1.3s;
+}
+
+.contact main .title.active p {
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  transition-delay: 0.2s;
+}
+
+.contact main .title p {
+  padding: 15px 30px;
+  color: #fff;
+  font-size: 14px;
+  display: inline-block;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -ms-transform: scale(0);
+  -o-transform: scale(0);
+  transform: scale(0);
+}
+
+.contact main button {
+  position: absolute;
+  bottom: 0;
+  right: 40%;
+  background-color: #688394; /*#008496*/
+  color: #fff;
+  border: 0;
+  width: 150px;
+  height: 48px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: -20px;
+  margin-right: -80px;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+  transition-delay: 0.1s;
+  outline: none;
+  overflow: hidden;
+  z-index: 11;
+  font-family: inherit;
+}
+
+.contact main button span {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  transition-delay: 0.4s;
+  display: block;
+  width: 150px;
+  float: left;
+  padding: 0px 0px;
+}
+
+.contact main button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact main button svg path {
+  fill: #fff;
+}
+
+.contact main button.active {
+  margin-right: 0;
+  right: 20px;
+  width: 65px;
+  height: 65px;
+  margin-bottom: -32.5px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  border-radius: 65px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.contact main button.active span {
+  opacity: 0;
+  transition-delay: 0s;
+  width: 200px;
+}
+
+.contact main button.active svg {
+  opacity: 1;
+  transition-delay: 0.5s;
+}
+
+.contact nav {
+  float: left;
+  width: 100%;
+  overflow: hidden;
+  max-height: 0px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.contact nav.active {
+  max-height: 600px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+
+.contact nav.active a {
+  opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+  transform: translateY(0px);
+  -webkit-transition: all 0.7s;
+  -moz-transition: all 0.7s;
+  -o-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.contact nav.active a:nth-of-type(1) {
+  transition-delay: 0.3s;
+}
+
+.contact nav.active a:nth-of-type(2) {
+  transition-delay: 0.5s;
+}
+
+.contact nav.active a:nth-of-type(3) {
+  transition-delay: 0.7s;
+}
+
+.contact nav a {
+  float: left;
+  width: 100%;
+  margin-top: 18px;
+  background-color: #fff;
+  padding: 18px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0;
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
+  transform: translateY(-10px);
+  position: relative;
+}
+
+@media (min-width: 414px) {
+  .contact nav a {
+    padding: 18px 30px;
+  }
+}
+
+.contact nav a .arrow {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.contact nav a .arrow path {
+  fill: #e6e6e6;
+}
+
+.contact nav a.general-news .icon svg {
+  background-color: #688394; /*#688394*/ /*#008496*/ /*#0096A9*/
+}
+
+.contact nav a.general-news .content h1 {
+  color: #688394;
+}
+
+.contact nav a.product-news .icon svg {
+  background-color: #008496;
+}
+
+.contact nav a.product-news .content h1 {
+  color: #008496;
+}
+
+.contact nav a.misc-news .icon svg {
+  background-color: #0096A9;
+}
+
+.contact nav a.misc-news .content h1 {
+  color: #0096A9;
+}
+
+.contact nav a .icon {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 20px;
+}
+
+.contact nav a .icon svg {
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+}
+
+.contact nav a .icon svg path {
+  fill: #fff;
+}
+
+.contact nav a .content h1 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%;
+  letter-spacing: 0.4px;
+}
+
+.contact nav a .content span {
+  font-size: 14px;
+  color: #b3b3b3;
+  display: block;
+  letter-spacing: 0.4px;
+}
+
+/*Loader*/
+.hidden {
+  display: none;
+}
+
+.lds-dual-ring:before {
+  display: block;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,100,100,0.25);
+  backdrop-filter: blur(10px);
+}
+
+.lds-dual-ring {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 9999;
+}
+
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 6px solid #fcf;
+  border-color: #fcf transparent #fcf transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
